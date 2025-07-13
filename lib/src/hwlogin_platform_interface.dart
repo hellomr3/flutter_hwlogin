@@ -1,7 +1,7 @@
-import 'package:hwlogin/login_result.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'hwlogin_method_channel.dart';
+import 'login_result.dart';
 
 abstract class HwloginPlatform extends PlatformInterface {
   /// Constructs a HwloginPlatform.

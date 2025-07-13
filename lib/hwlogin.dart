@@ -1,13 +1,4 @@
-import 'package:hwlogin/login_result.dart';
+library hwlogin;
 
-import 'hwlogin_platform_interface.dart';
-
-class Hwlogin {
-  Future<String?> getMaskPhone() {
-    return HwloginPlatform.instance.getPhone();
-  }
-
-  Future<LoginResult> login() {
-    return HwloginPlatform.instance.login();
-  }
-}
+export 'src/login_result.dart';
+export 'src/hwlogin.dart';

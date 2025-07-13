@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:hwlogin/login_result.dart';
+import 'login_result.dart';
 
 import 'hwlogin_platform_interface.dart';
 
